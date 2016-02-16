@@ -1,0 +1,1 @@
+../../../MyProject/MyProject.uproject  /Game/SideScrollerBP/Maps/SideScrollerExampleMap -Messaging -SessionId=A4EDBA604112270DCD51D9806347452C -SessionOwner=stalk -SessionName='Play On Device' -iterative

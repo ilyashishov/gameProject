@@ -1,0 +1,1066 @@
+﻿[2016.02.13-11.51.10:333][  0]Log file open, 02/13/16 14:51:10
+[2016.02.13-11.51.10:333][  0]LogInit:Display: Running engine for game: MyProject
+[2016.02.13-11.51.10:333][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-11.51.10:333][  0]LogInit:Display: RandInit(1797641333) SRandInit(1797641335).
+[2016.02.13-11.51.10:333][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.13-11.51.10:333][  0]LogStats: Stats thread started at 0.062481
+[2016.02.13-11.51.10:333][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-11.51.10:333][  0]LogInit: API Version: 2758231
+[2016.02.13-11.51.10:333][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.13-11.51.10:333][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.13-11.51.10:333][  0]LogInit: Build Configuration: Development
+[2016.02.13-11.51.10:333][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.13-11.51.10:333][  0]LogInit: Command line: 
+[2016.02.13-11.51.10:333][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.13-11.51.10:333][  0]LogInit: Rocket: 1
+[2016.02.13-11.51.10:340][  0]LogInit: Using libcurl 7.41.0
+[2016.02.13-11.51.10:340][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.13-11.51.10:340][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.13-11.51.10:340][  0]LogInit:  - other features:
+[2016.02.13-11.51.10:340][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.13-11.51.10:340][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.13-11.51.10:340][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.13-11.51.10:340][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.13-11.51.10:340][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.13-11.51.10:340][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.13-11.51.10:340][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.13-11.51.10:340][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.13-11.51.10:340][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.13-11.51.10:340][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.13-11.51.10:348][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.13-11.51.10:356][  0]LogInit: Object subsystem initialized
+[2016.02.13-11.51.10:359][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-11.51.10:359][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.13-11.51.10:367][  0]LogInit: Computer: DESKTOP-3EJ7RE1
+[2016.02.13-11.51.10:367][  0]LogInit: User: stalk
+[2016.02.13-11.51.10:367][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.13-11.51.10:367][  0]LogInit: High frequency timer resolution =2.533318 MHz
+[2016.02.13-11.51.10:367][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.13-11.51.10:368][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.13-11.51.10:368][  0]LogMemory: Process Physical Memory: 55.62 MB used, 55.62 MB peak
+[2016.02.13-11.51.10:368][  0]LogMemory: Process Virtual Memory: 55.64 MB used, 55.64 MB peak
+[2016.02.13-11.51.10:368][  0]LogMemory: Physical Memory: 4064.04 MB used, 8053.60 MB total
+[2016.02.13-11.51.10:368][  0]LogMemory: Virtual Memory: 382.85 MB used, 134217728.00 MB total
+[2016.02.13-11.51.10:396][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.13-11.51.10:958][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 645M (Feature Level 11_0)
+[2016.02.13-11.51.10:958][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 1 output[s]
+[2016.02.13-11.51.10:963][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2016.02.13-11.51.10:963][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.02.13-11.51.10:965][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.13-11.51.10:965][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 0 output[s]
+[2016.02.13-11.51.10:965][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.13-11.51.10:970][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.13-11.51.10:971][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.13-11.51.10:986][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.13-11.51.11:005][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/stalk/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/3876/).
+[2016.02.13-11.51.11:005][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/stalk/AppData/Local/Temp/UnrealShaderWorkingDir/543A5C114ED7978D70C966B6C8939A0A/'.
+[2016.02.13-11.51.11:005][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.13-11.51.13:088][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.13-11.51.13:094][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.13-11.51.13:099][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.13-11.51.13:105][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.13-11.51.13:110][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.13-11.51.13:113][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.13-11.51.13:116][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.13-11.51.13:119][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.13-11.51.13:122][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.13-11.51.13:126][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.13-11.51.13:130][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.13-11.51.13:136][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.13-11.51.13:136][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.13-11.51.13:137][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.13-11.51.13:154][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.13-11.51.13:157][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.13-11.51.13:160][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.13-11.51.13:162][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.13-11.51.13:162][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.13-11.51.13:254][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache: Loaded boot cache 0.67s 41MB C:/Users/stalk/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/stalk/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/stalk/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/stalk/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.13-11.51.13:928][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.13-11.51.14:013][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.13-11.51.14:025][  0]LogDerivedDataCache: Using Local data cache path C:/Users/stalk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.13-11.51.14:245][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-11.51.14:248][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.13-11.51.14:431][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.13-11.51.14:431][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.13-11.51.15:175][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.13-11.51.24:620][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.13-11.51.25:006][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.02.13-11.51.26:557][  0]SourceControl: Info Source control is disabled
+[2016.02.13-11.51.26:634][  0]SourceControl: Info Source control is disabled
+[2016.02.13-11.51.26:648][  0]SourceControl: Info Source control is disabled
+[2016.02.13-11.51.26:660][  0]SourceControl: Info Source control is disabled
+[2016.02.13-11.51.27:634][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.13-11.51.27:634][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.13-11.51.27:730][  0]LogEngine: Initializing Engine...
+[2016.02.13-11.51.27:733][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-11.51.27:734][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.13-11.51.28:240][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.13-11.51.28:245][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-11.51.28:260][  0]LogInit: FAudioDevice initialized.
+[2016.02.13-11.51.28:284][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/stalk/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-11.51.28:289][  0]LogInit: Texture streaming: Enabled
+[2016.02.13-11.51.28:298][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.13-11.51.28:298][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-11.51.28:298][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f1ffe7e34462814f241be1ab226718fb|5f44641976104309aa8bd66625ba558a|c398b486-fbe3-4d52-9fcc-d2ee06e7932d
+[2016.02.13-11.51.28:298][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.13-11.51.28:311][  0]LogInit: Transaction tracking system initialized
+[2016.02.13-11.51.28:349][  0]BlueprintLog: New page: Editor Load
+[2016.02.13-11.51.29:281][  0]LocalizationService: Info Localization service is disabled
+[2016.02.13-11.51.29:596][  0]LogConsoleResponse:Display: 
+[2016.02.13-11.51.30:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2016.02.13-11.51.30:234][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.13-11.51.30:551][  0]SourceControl: Info Source control is disabled
+[2016.02.13-11.51.31:689][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2016.02.13-11.51.33:030][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.02.13-11.51.33:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.02.13-11.51.33:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.02.13-11.51.33:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.02.13-11.51.33:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.02.13-11.51.33:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.02.13-11.51.33:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.02.13-11.51.34:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.02.13-11.51.34:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.02.13-11.51.34:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.02.13-11.51.34:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.02.13-11.51.34:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.02.13-11.51.34:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.02.13-11.51.34:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.02.13-11.51.34:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.02.13-11.51.34:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.02.13-11.51.35:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.02.13-11.51.35:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.02.13-11.51.35:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Fire01.uasset"
+[2016.02.13-11.51.35:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.02.13-11.51.35:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.02.13-11.51.35:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.02.13-11.51.35:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Light01.uasset"
+[2016.02.13-11.51.35:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.02.13-11.51.35:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Light02.uasset"
+[2016.02.13-11.51.35:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.02.13-11.51.35:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.02.13-11.51.35:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.02.13-11.51.35:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.02.13-11.51.35:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.02.13-11.51.35:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.02.13-11.51.35:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.02.13-11.51.36:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.02.13-11.51.36:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.02.13-11.51.36:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Steam01.uasset"
+[2016.02.13-11.51.36:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.02.13-11.51.36:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.02.13-11.51.36:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.02.13-11.51.36:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.02.13-11.51.36:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.02.13-11.51.36:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.02.13-11.51.36:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.02.13-11.51.36:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.02.13-11.51.36:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.02.13-11.51.36:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.02.13-11.51.36:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.02.13-11.51.37:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.02.13-11.51.37:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.02.13-11.51.37:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.02.13-11.51.37:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.02.13-11.51.37:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.02.13-11.51.37:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.02.13-11.51.57:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.02.13-11.51.57:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.02.13-11.51.57:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.02.13-11.51.57:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Maps/StarterMap.umap"
+[2016.02.13-11.51.57:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.02.13-11.51.57:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.02.13-11.51.57:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.02.13-11.51.57:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.02.13-11.51.58:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.02.13-11.51.58:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.02.13-11.51.58:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.02.13-11.51.58:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.02.13-11.51.58:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.02.13-11.51.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.02.13-11.51.58:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.02.13-11.51.58:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.02.13-11.51.58:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.02.13-11.51.58:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.02.13-11.51.58:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.02.13-11.51.58:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.02.13-11.51.58:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.02.13-11.51.58:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.02.13-11.51.58:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.02.13-11.51.58:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.02.13-11.51.58:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.02.13-11.51.58:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.02.13-11.51.58:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.02.13-11.51.58:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.02.13-11.51.58:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.02.13-11.51.59:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.02.13-11.51.59:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.02.13-11.51.59:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.02.13-11.51.59:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.02.13-11.51.59:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.02.13-11.51.59:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.02.13-11.51.59:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.02.13-11.51.59:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.02.13-11.51.59:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.02.13-11.51.59:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.02.13-11.51.59:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.02.13-11.51.59:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.02.13-11.51.59:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.02.13-11.51.59:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.02.13-11.51.59:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.02.13-11.51.59:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.02.13-11.51.59:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.02.13-11.51.59:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.02.13-11.51.59:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.02.13-11.51.59:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.02.13-11.51.59:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.02.13-11.51.59:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.02.13-11.52.00:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.02.13-11.52.00:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.02.13-11.52.00:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.02.13-11.52.00:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.02.13-11.52.00:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.02.13-11.52.00:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.02.13-11.52.00:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.02.13-11.52.00:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.02.13-11.52.00:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.02.13-11.52.00:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.02.13-11.52.00:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.02.13-11.52.00:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.02.13-11.52.00:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.02.13-11.52.00:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.02.13-11.52.00:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.02.13-11.52.00:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.02.13-11.52.00:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.02.13-11.52.00:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Door.uasset"
+[2016.02.13-11.52.00:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.02.13-11.52.00:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.02.13-11.52.00:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.02.13-11.52.00:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.02.13-11.52.00:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.02.13-11.52.00:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.02.13-11.52.00:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.02.13-11.52.00:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.02.13-11.52.00:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.02.13-11.52.00:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.02.13-11.52.01:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.02.13-11.52.01:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.02.13-11.52.01:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.02.13-11.52.01:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.02.13-11.52.01:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.02.13-11.52.01:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.02.13-11.52.01:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.02.13-11.52.01:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.02.13-11.52.01:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.02.13-11.52.01:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.02.13-11.52.01:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.02.13-11.52.01:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.02.13-11.52.01:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.02.13-11.52.01:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.02.13-11.52.01:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.02.13-11.52.01:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.02.13-11.52.01:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.02.13-11.52.01:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.02.13-11.52.01:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.02.13-11.52.01:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.02.13-11.52.01:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.02.13-11.52.01:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.02.13-11.52.01:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.02.13-11.52.01:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.02.13-11.52.01:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.02.13-11.52.01:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.02.13-11.52.01:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.02.13-11.52.01:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.02.13-11.52.01:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.02.13-11.52.01:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.02.13-11.52.01:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.02.13-11.52.01:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.02.13-11.52.01:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.02.13-11.52.01:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.02.13-11.52.02:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.02.13-11.52.02:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.02.13-11.52.02:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.02.13-11.52.02:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.02.13-11.52.03:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.02.13-11.52.03:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.02.13-11.52.03:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.02.13-11.52.04:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.02.13-11.52.04:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.02.13-11.52.04:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.02.13-11.52.05:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.02.13-11.52.05:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.02.13-11.52.05:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.02.13-11.52.06:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.02.13-11.52.06:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.02.13-11.52.06:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.02.13-11.52.06:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.02.13-11.52.07:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.02.13-11.52.08:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.02.13-11.52.08:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.02.13-11.52.08:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.02.13-11.52.08:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.02.13-11.52.08:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.02.13-11.52.09:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.02.13-11.52.09:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.02.13-11.52.10:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.02.13-11.52.10:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.02.13-11.52.11:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.02.13-11.52.11:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.02.13-11.52.12:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.02.13-11.52.12:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.02.13-11.52.13:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.02.13-11.52.13:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.02.13-11.52.14:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.02.13-11.52.14:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.02.13-11.52.14:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.02.13-11.52.15:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.02.13-11.52.15:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.02.13-11.52.15:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.02.13-11.52.15:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.02.13-11.52.15:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.02.13-11.52.16:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.02.13-11.52.16:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.02.13-11.52.16:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.02.13-11.52.16:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.02.13-11.52.16:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.02.13-11.52.16:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.02.13-11.52.17:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.02.13-11.52.17:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.02.13-11.52.18:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.02.13-11.52.18:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.02.13-11.52.18:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.02.13-11.52.19:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.02.13-11.52.19:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.02.13-11.52.19:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.02.13-11.52.19:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.02.13-11.52.20:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.02.13-11.52.20:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.02.13-11.52.20:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.02.13-11.52.21:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.02.13-11.52.21:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.02.13-11.52.22:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.02.13-11.52.22:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.02.13-11.52.23:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.02.13-11.52.24:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.02.13-11.52.24:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.02.13-11.52.25:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.02.13-11.52.25:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.02.13-11.52.25:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.02.13-11.52.25:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.02.13-11.52.26:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.02.13-11.52.26:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.02.13-11.52.27:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.02.13-11.52.27:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.02.13-11.52.28:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.02.13-11.52.29:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.02.13-11.52.29:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.02.13-11.52.29:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.02.13-11.52.30:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.02.13-11.52.30:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.02.13-11.52.30:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.02.13-11.52.30:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.02.13-11.52.30:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.02.13-11.52.30:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.02.13-11.52.30:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.02.13-11.52.31:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.02.13-11.52.31:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.02.13-11.52.31:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.02.13-11.52.31:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.02.13-11.52.31:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.02.13-11.52.31:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.02.13-11.52.31:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.02.13-11.52.31:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.02.13-11.52.31:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.02.13-11.52.31:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.02.13-11.52.31:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.02.13-11.52.31:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.02.13-11.52.32:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.02.13-11.52.32:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.02.13-11.52.32:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.02.13-11.52.33:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.02.13-11.52.33:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.02.13-11.52.33:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.02.13-11.52.35:754][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.02.13-11.52.38:252][  0]LogSavePackage: Save=205.672958ms
+[2016.02.13-11.52.38:252][  0]LogSavePackage: Moving 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Saved/Floor_400x400F83CA8594ECE07F169B9B2A20CBC1AB2.tmp' to 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.02.13-11.52.38:258][  0]LogSavePackage: Total save time: 281.164862ms
+[2016.02.13-11.52.38:258][  0]LogSavePackage:Display: Finished SavePackage C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.02.13-11.52.38:259][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.02.13-11.52.38:263][  0]Cmd: MAP LOAD FILE="C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.13-11.52.38:283][  0]LightingResults: New page: Lighting Build
+[2016.02.13-11.52.38:289][  0]MapCheck: New page: Map Check
+[2016.02.13-11.52.38:289][  0]LightingResults: New page: Lighting Build
+[2016.02.13-11.52.38:321][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002485AB4B6A0
+[2016.02.13-11.52.41:087][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-11.52.41:802][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.13-11.52.41:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.13-11.52.41:892][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.29ms to complete.
+[2016.02.13-11.52.41:892][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 3.629
+[2016.02.13-11.52.44:045][  0]LogCollectionManager: Loaded 0 collections in 0.002732 seconds
+[2016.02.13-11.52.44:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.02.13-11.52.44:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/Developers/stalk/Collections/' took 0.01s
+[2016.02.13-11.52.44:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.02.13-11.52.44:199][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.13-11.52.44:541][  0]LogContentBrowser: Native class hierarchy populated in 0.2733 seconds. Added 1893 classes and 338 folders.
+[2016.02.13-11.52.44:810][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.02.13-11.52.45:308][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.02.13-11.52.45:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.02.13-11.52.47:480][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.13-11.52.47:840][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-11.52.48:190][  0]LogLoad: Full Startup: 98.24 seconds (BP compile: 0.90 seconds)
+[2016.02.13-11.52.48:204][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-11.52.49:164][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.13-11.52.51:954][  0]LogRenderer: Reallocating scene render targets to support 856x396 (Frame:3).
+[2016.02.13-11.52.53:079][  6]LogAssetRegistry: Asset discovery search completed in 88.0837 seconds
+[2016.02.13-11.52.53:097][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.13-11.52.53:097][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2016.02.13-11.53.07:686][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.53.07:692][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-11.53.07:750][784]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 5:53:07 PM)
+[2016.02.13-11.53.07:772][784]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-11.53.07:857][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085324s)
+[2016.02.13-11.53.07:858][784]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-11.53.07:859][784]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2016.02.13-11.53.07:859][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.098414s)
+[2016.02.13-11.53.08:100][784]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-11.53.08:113][784]LogInit: FAudioDevice initialized.
+[2016.02.13-11.53.08:503][784]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-11.53.08:707][784]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 3) at 2016.02.13-14.53.08
+[2016.02.13-11.53.08:707][784]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.53.08:730][784]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.53.08:860][784]LogWorld: Bringing up level for play took: 0.157341
+[2016.02.13-11.53.09:263][784]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 2.177
+[2016.02.13-11.53.09:263][784]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.54.46:872][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.54.47:128][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.54.47:185][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002486EC00FE0
+[2016.02.13-11.55.02:741][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2016.02.13-11.55.10:229][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.02.13-11.55.12:272][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.13-11.55.20:430][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.13-11.55.37:067][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.55.37:067][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-11.55.37:067][507]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 5:55:37 PM)
+[2016.02.13-11.55.37:067][507]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-11.55.37:100][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032035s)
+[2016.02.13-11.55.37:101][507]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-11.55.37:101][507]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2016.02.13-11.55.37:101][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.033993s)
+[2016.02.13-11.55.37:153][507]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-11.55.37:164][507]LogInit: FAudioDevice initialized.
+[2016.02.13-11.55.37:203][507]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-11.55.37:208][507]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-14.55.37
+[2016.02.13-11.55.37:208][507]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.55.37:209][507]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.55.37:209][507]LogWorld: Bringing up level for play took: 0.005885
+[2016.02.13-11.55.37:211][507]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.124
+[2016.02.13-11.55.37:211][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.55.46:141][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.55.46:196][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.55.46:251][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024841BC0FE0
+[2016.02.13-11.55.51:101][287]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.02.13-11.55.51:802][318]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.02.13-11.56.29:989][625]Cmd: TRANSACTION UNDO
+[2016.02.13-11.56.29:989][625]LogEditorTransaction: Undo Move Actors
+[2016.02.13-11.56.57:360][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.02.13-11.56.57:604][500]Cmd: TRANSACTION UNDO
+[2016.02.13-11.56.57:604][500]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.13-11.56.58:075][510]Cmd: TRANSACTION UNDO
+[2016.02.13-11.56.58:075][510]LogEditorTransaction: Undo Set actor location
+[2016.02.13-11.57.25:569][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.57.25:569][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-11.57.25:569][649]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 5:57:25 PM)
+[2016.02.13-11.57.25:569][649]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-11.57.25:598][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029215s)
+[2016.02.13-11.57.25:600][649]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-11.57.25:601][649]LogPlayLevel: PIE: World Init took: (0.001997s)
+[2016.02.13-11.57.25:601][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.031834s)
+[2016.02.13-11.57.25:667][649]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-11.57.25:677][649]LogInit: FAudioDevice initialized.
+[2016.02.13-11.57.25:715][649]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-11.57.25:721][649]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-14.57.25
+[2016.02.13-11.57.25:721][649]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.57.25:722][649]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.57.25:722][649]LogWorld: Bringing up level for play took: 0.005996
+[2016.02.13-11.57.25:723][649]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.637
+[2016.02.13-11.57.25:723][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.57.37:852][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.57.37:930][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.57.37:956][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002480B544B80
+[2016.02.13-11.57.39:543][484]MapCheck: New page: Map Check
+[2016.02.13-11.57.39:897][484]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.13-11.57.39:922][484]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.13-11.57.40:625][484]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.02.13-11.57.40:636][484]LogStats:          STAT_HLOD_BuildClusters - 79.340 ms
+[2016.02.13-11.57.40:650][484]LightingResults: New page: Lighting Build - Feb 13, 2016, 5:57:40 PM
+[2016.02.13-11.58.00:023][484]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.13-11.58.00:023][484]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.13-11.58.00:023][484]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.13-11.58.00:023][484]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.13-11.58.00:023][484]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.13-11.58.01:112][484]LogEditorBuildUtils: Build time 0:00:21
+[2016.02.13-11.58.01:166][484]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_41, compiling. 
+[2016.02.13-11.58.01:363][484]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_41, compiling. 
+[2016.02.13-11.58.01:427][485]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.02.13-11.58.01:433][485]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2016.02.13-11.58.01:550][486]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.02.13-11.58.01:559][486]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.02.13-11.58.35:941][778]Job is a success!
+[2016.02.13-11.58.37:206][779]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.02.13-11.58.37:967][779]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.02.13-11.58.37:973][779]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.02.13-11.58.37:974][779]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.02.13-11.58.37:977][779]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.02.13-11.58.37:992][779]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.02.13-11.58.38:052][779]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.02.13-11.58.38:081][779]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.02.13-11.58.38:089][779]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.02.13-11.58.38:118][779]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.02.13-11.58.38:136][779]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.02.13-11.58.38:152][779]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.02.13-11.58.38:213][779]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.02.13-11.58.38:239][779]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.13-11.58.38:365][779]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.13-11.58.38:637][779]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.02.13-11.58.38:780][779]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.02.13-11.58.39:277][779]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.13-11.58.40:963][779]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.02.13-11.58.41:246][779]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.02.13-11.58.41:284][779]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.02.13-11.58.41:300][779]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.02.13-11.58.41:313][779]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.02.13-11.58.41:316][779]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2016.02.13-11.58.42:051][779]Lightmass on DESKTOP-3EJ7RE1: 33.8 sec total, 10.4 sec importing, 11 ms setup, 1.25 sec photons, 21.8 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 1:27 min total, 23.4 sec processing.
+[2016.02.13-11.58.42:106][779]LogStaticLightingSystem: Illumination: 1:01 min (4.84 sec encoding lightmaps)
+[2016.02.13-11.58.42:106][779]LogStaticLightingSystem: Lightmap texture memory:  6.9 MB (6.9 MB streaming, 0.0 MB non-streaming), 12 textures
+[2016.02.13-11.58.42:106][779]LogStaticLightingSystem: Shadowmap texture memory: 3.5 MB (3.5 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.02.13-11.58.43:030][780]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.13-11.58.43:030][780]MapCheck: New page: SideScrollerExampleMap - Feb 13, 2016, 5:58:43 PM
+[2016.02.13-11.58.43:345][780]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 314.439ms to complete.
+[2016.02.13-11.59.47:487][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.59.47:487][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-11.59.47:487][500]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 5:59:47 PM)
+[2016.02.13-11.59.47:487][500]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-11.59.47:515][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027065s)
+[2016.02.13-11.59.47:517][500]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-11.59.47:517][500]LogPlayLevel: PIE: World Init took: (0.002344s)
+[2016.02.13-11.59.47:518][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030119s)
+[2016.02.13-11.59.47:580][500]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-11.59.47:590][500]LogInit: FAudioDevice initialized.
+[2016.02.13-11.59.47:626][500]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-11.59.47:632][500]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-14.59.47
+[2016.02.13-11.59.47:632][500]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.59.47:632][500]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-11.59.47:632][500]LogWorld: Bringing up level for play took: 0.005780
+[2016.02.13-11.59.47:633][500]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.547
+[2016.02.13-11.59.47:634][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.59.55:843][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.59.55:922][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-11.59.55:949][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024804D771A0
+[2016.02.13-11.59.57:693][145]LogRenderer: Reallocating scene render targets to support 864x396 (Frame:23818).
+[2016.02.13-11.59.57:817][146]LogRenderer: Reallocating scene render targets to support 872x396 (Frame:23822).
+[2016.02.13-11.59.57:982][148]LogRenderer: Reallocating scene render targets to support 880x396 (Frame:23830).
+[2016.02.13-11.59.58:075][149]LogRenderer: Reallocating scene render targets to support 884x396 (Frame:23834).
+[2016.02.13-12.00.00:527][259]LogRenderer: Reallocating scene render targets to support 884x436 (Frame:24063).
+[2016.02.13-12.00.00:619][260]LogRenderer: Reallocating scene render targets to support 884x496 (Frame:24067).
+[2016.02.13-12.00.00:727][261]LogRenderer: Reallocating scene render targets to support 884x544 (Frame:24071).
+[2016.02.13-12.00.00:820][262]LogRenderer: Reallocating scene render targets to support 884x584 (Frame:24075).
+[2016.02.13-12.00.00:917][263]LogRenderer: Reallocating scene render targets to support 884x588 (Frame:24079).
+[2016.02.13-12.00.02:788][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.00.02:789][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.00.02:789][334]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:00:02 PM)
+[2016.02.13-12.00.02:789][334]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.00.02:879][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090068s)
+[2016.02.13-12.00.02:880][334]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.00.02:880][334]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2016.02.13-12.00.02:880][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.091539s)
+[2016.02.13-12.00.02:938][334]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.00.02:949][334]LogInit: FAudioDevice initialized.
+[2016.02.13-12.00.02:986][334]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.00.02:991][334]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.00.02
+[2016.02.13-12.00.02:992][334]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.00.02:992][334]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.00.02:992][334]LogWorld: Bringing up level for play took: 0.005662
+[2016.02.13-12.00.02:993][334]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.093
+[2016.02.13-12.00.02:993][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.00.16:054][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.00.16:135][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.00.16:179][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024813233600
+[2016.02.13-12.00.24:337][361]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\stalk\Desktop\wallpaper_no_mans_sky_02_1920x1080 (1).jpg)
+[2016.02.13-12.00.24:528][361]LogTexture:Display: Building textures: wallpaper_no_mans_sky_02_1920x1080__1_ (AutoDXT)
+[2016.02.13-12.00.29:833][460]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.00.29:929][460]LogMaterial:Warning: Material /Game/SideScrollerBP/wallpaper_no_mans_sky_02_1920x1080__1__Mat.wallpaper_no_mans_sky_02_1920x1080__1__Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.02.13-12.00.30:004][460]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.00.30:104][460]LogMaterial: 0.039026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-12.00.36:434][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.13-12.00.55:590][814]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.00.56:825][814]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.00.56:838][814]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-12.00.56:870][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-12.01.00:822][949]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.02.13-12.01.00:822][949]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.13-12.01.00:822][949]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-12.01.00:822][949]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-12.01.29:945][147]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.01.29:950][147]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-12.01.29:980][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.13-12.01.36:530][435]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
+[2016.02.13-12.01.36:530][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2016.02.13-12.01.36:530][435]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.13-12.01.36:530][435]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.13-12.01.45:834][848]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.01.45:839][848]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-12.01.48:059][946]LogMaterial: Missing cached shader map for material wallpaper_no_mans_sky_02_1920x1080__1__Mat, compiling. 
+[2016.02.13-12.01.48:069][946]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.13-12.01.52:990][175]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.02.13-12.01.52:990][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.13-12.01.52:990][175]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.13-12.01.52:990][175]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.02.13-12.02.35:819][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.13-12.02.48:495][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.02.48:495][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.02.48:495][401]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:02:48 PM)
+[2016.02.13-12.02.48:495][401]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.02.48:568][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073274s)
+[2016.02.13-12.02.48:569][401]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.02.48:570][401]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2016.02.13-12.02.48:570][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.074870s)
+[2016.02.13-12.02.48:604][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024814AFD800
+[2016.02.13-12.02.48:604][401]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.02.48:614][401]LogInit: FAudioDevice initialized.
+[2016.02.13-12.02.48:654][401]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.02.48:660][401]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.02.48
+[2016.02.13-12.02.48:660][401]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.02.48:660][401]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.02.48:661][401]LogWorld: Bringing up level for play took: 0.005655
+[2016.02.13-12.02.48:662][401]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.424
+[2016.02.13-12.02.48:662][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.02.51:397][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.02.51:452][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.02.51:480][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000248170DE5C0
+[2016.02.13-12.02.57:824][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.13-12.03.12:836][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.12:836][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.03.12:836][919]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:03:12 PM)
+[2016.02.13-12.03.12:836][919]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.03.12:866][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029460s)
+[2016.02.13-12.03.12:867][919]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.03.12:867][919]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2016.02.13-12.03.12:867][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030912s)
+[2016.02.13-12.03.12:905][919]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.03.12:915][919]LogInit: FAudioDevice initialized.
+[2016.02.13-12.03.12:953][919]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.03.12:960][919]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.03.12
+[2016.02.13-12.03.12:960][919]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.03.12:960][919]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.03.12:960][919]LogWorld: Bringing up level for play took: 0.006752
+[2016.02.13-12.03.12:962][919]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.125
+[2016.02.13-12.03.12:962][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.18:127][272]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.18:182][272]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.18:240][273]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002480B5449A0
+[2016.02.13-12.03.18:991][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.13-12.03.23:741][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.23:741][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.03.23:741][595]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:03:23 PM)
+[2016.02.13-12.03.23:741][595]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.03.23:770][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029342s)
+[2016.02.13-12.03.23:772][595]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.03.23:772][595]LogPlayLevel: PIE: World Init took: (0.001419s)
+[2016.02.13-12.03.23:772][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.031139s)
+[2016.02.13-12.03.23:807][595]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.03.23:818][595]LogInit: FAudioDevice initialized.
+[2016.02.13-12.03.23:855][595]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.03.23:860][595]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.03.23
+[2016.02.13-12.03.23:860][595]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.03.23:860][595]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.03.23:861][595]LogWorld: Bringing up level for play took: 0.005659
+[2016.02.13-12.03.23:862][595]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.776
+[2016.02.13-12.03.23:862][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.33:277][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.33:335][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.03.33:395][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002481C2B1940
+[2016.02.13-12.03.37:442][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.13-12.03.38:208][497]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.02.13-12.03.43:353][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.13-12.03.44:778][808]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.02.13-12.04.05:294][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.05:294][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.04.05:294][713]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:04:05 PM)
+[2016.02.13-12.04.05:294][713]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.04.05:321][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026883s)
+[2016.02.13-12.04.05:322][713]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.04.05:323][713]LogPlayLevel: PIE: World Init took: (0.001931s)
+[2016.02.13-12.04.05:324][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029534s)
+[2016.02.13-12.04.05:387][713]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.04.05:396][713]LogInit: FAudioDevice initialized.
+[2016.02.13-12.04.05:445][713]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.04.05:456][713]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.04.05
+[2016.02.13-12.04.05:456][713]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.05:456][713]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.05:457][713]LogWorld: Bringing up level for play took: 0.010609
+[2016.02.13-12.04.05:458][713]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.371
+[2016.02.13-12.04.05:458][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.10:726][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.10:841][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.10:869][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002486B47A0C0
+[2016.02.13-12.04.23:082][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.23:082][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.04.23:082][618]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:04:23 PM)
+[2016.02.13-12.04.23:082][618]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.04.23:111][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029154s)
+[2016.02.13-12.04.23:112][618]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.04.23:113][618]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2016.02.13-12.04.23:113][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030614s)
+[2016.02.13-12.04.23:176][618]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.04.23:186][618]LogInit: FAudioDevice initialized.
+[2016.02.13-12.04.23:234][618]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.04.23:245][618]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.04.23
+[2016.02.13-12.04.23:245][618]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.23:245][618]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.23:246][618]LogWorld: Bringing up level for play took: 0.010785
+[2016.02.13-12.04.23:247][618]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.161
+[2016.02.13-12.04.23:247][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.29:356][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.29:437][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.29:465][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002480B6F9080
+[2016.02.13-12.04.56:108][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.04.56:109][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.04.56:109][168]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:04:56 PM)
+[2016.02.13-12.04.56:109][168]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.04.56:137][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027837s)
+[2016.02.13-12.04.56:138][168]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.04.56:138][168]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2016.02.13-12.04.56:138][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029450s)
+[2016.02.13-12.04.56:200][168]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.04.56:210][168]LogInit: FAudioDevice initialized.
+[2016.02.13-12.04.56:253][168]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.04.56:265][168]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.04.56
+[2016.02.13-12.04.56:265][168]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.56:266][168]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.04.56:266][168]LogWorld: Bringing up level for play took: 0.012151
+[2016.02.13-12.04.56:269][168]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.818
+[2016.02.13-12.04.56:269][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.06:438][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.06:514][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.06:563][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024804D76AC0
+[2016.02.13-12.05.08:920][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2016.02.13-12.05.10:948][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2016.02.13-12.05.12:163][148]Cmd: DELETE
+[2016.02.13-12.05.12:163][148]Cmd: ACTOR DELETE
+[2016.02.13-12.05.12:536][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.13-12.05.12:606][148]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2016.02.13-12.05.14:438][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.14:439][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.05.14:439][259]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:05:14 PM)
+[2016.02.13-12.05.14:439][259]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.05.14:469][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030326s)
+[2016.02.13-12.05.14:470][259]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.05.14:471][259]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2016.02.13-12.05.14:471][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032015s)
+[2016.02.13-12.05.14:505][259]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.05.14:516][259]LogInit: FAudioDevice initialized.
+[2016.02.13-12.05.14:556][259]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.05.14:561][259]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.05.14
+[2016.02.13-12.05.14:561][259]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.05.14:561][259]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.05.14:562][259]LogWorld: Bringing up level for play took: 0.005446
+[2016.02.13-12.05.14:563][259]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.523
+[2016.02.13-12.05.14:563][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.33:788][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.33:829][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.05.33:857][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002488EBF2520
+[2016.02.13-12.05.37:035][765]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.02.13-12.06.20:305][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.20:305][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.06.20:306][732]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:06:20 PM)
+[2016.02.13-12.06.20:306][732]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.06.20:338][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032411s)
+[2016.02.13-12.06.20:341][732]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.06.20:341][732]LogPlayLevel: PIE: World Init took: (0.002652s)
+[2016.02.13-12.06.20:341][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.035505s)
+[2016.02.13-12.06.20:407][732]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.06.20:417][732]LogInit: FAudioDevice initialized.
+[2016.02.13-12.06.20:455][732]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.06.20:461][732]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.06.20
+[2016.02.13-12.06.20:461][732]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.06.20:461][732]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.06.20:462][732]LogWorld: Bringing up level for play took: 0.005578
+[2016.02.13-12.06.20:463][732]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.623
+[2016.02.13-12.06.20:463][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.34:523][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.34:604][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.34:633][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002484D129E40
+[2016.02.13-12.06.46:800][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.46:800][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.06.46:800][252]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:06:46 PM)
+[2016.02.13-12.06.46:800][252]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.06.46:825][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025318s)
+[2016.02.13-12.06.46:827][252]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.06.46:827][252]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2016.02.13-12.06.46:828][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.027606s)
+[2016.02.13-12.06.46:889][252]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.06.46:898][252]LogInit: FAudioDevice initialized.
+[2016.02.13-12.06.46:936][252]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.06.46:942][252]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.06.46
+[2016.02.13-12.06.46:942][252]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.06.46:942][252]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.06.46:942][252]LogWorld: Bringing up level for play took: 0.005614
+[2016.02.13-12.06.46:944][252]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.142
+[2016.02.13-12.06.46:944][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.54:060][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.54:142][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.06.54:171][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002481C2B2160
+[2016.02.13-12.07.08:415][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.07.08:415][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.13-12.07.08:415][403]PIE: New page: PIE session: SideScrollerExampleMap (Feb 13, 2016, 6:07:08 PM)
+[2016.02.13-12.07.08:415][403]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.13-12.07.08:446][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030469s)
+[2016.02.13-12.07.08:447][403]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.13-12.07.08:447][403]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2016.02.13-12.07.08:447][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032068s)
+[2016.02.13-12.07.08:516][403]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.13-12.07.08:526][403]LogInit: FAudioDevice initialized.
+[2016.02.13-12.07.08:571][403]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.13-12.07.08:578][403]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.13-15.07.08
+[2016.02.13-12.07.08:578][403]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.07.08:579][403]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.13-12.07.08:579][403]LogWorld: Bringing up level for play took: 0.007750
+[2016.02.13-12.07.08:581][403]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.505
+[2016.02.13-12.07.08:581][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.07.26:798][725]LogRenderer: Reallocating scene render targets to support 1056x588 (Frame:57947).
+[2016.02.13-12.07.37:702][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.07.37:818][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.02.13-12.07.37:846][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024815C34540
+[2016.02.13-12.07.55:449][677]LogSavePackage: Save=1168.662598ms
+[2016.02.13-12.07.55:449][677]LogSavePackage: Moving 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Saved/SideScrollerExampleMapF7996DCE45C6580624FB9490E8808367.tmp' to 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.02.13-12.07.55:464][677]LogSavePackage: Total save time: 1197.677907ms
+[2016.02.13-12.07.55:464][677]LogSavePackage:Display: Finished SavePackage C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.02.13-12.07.55:527][677]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.449
+[2016.02.13-12.07.56:069][677]LogSavePackage: Save=386.166290ms
+[2016.02.13-12.07.56:069][677]LogSavePackage: Moving 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Saved/wallpaper_no_mans_sky_02_1920x1080__1_138DC1E64FB05EA86B74F0898F50D4DB.tmp' to 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/wallpaper_no_mans_sky_02_1920x1080__1_.uasset'
+[2016.02.13-12.07.56:071][677]LogSavePackage: Total save time: 389.014725ms
+[2016.02.13-12.07.56:071][677]LogSavePackage:Display: Finished SavePackage C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/wallpaper_no_mans_sky_02_1920x1080__1_.uasset
+[2016.02.13-12.07.56:155][677]LogSavePackage: Save=32.346115ms
+[2016.02.13-12.07.56:155][677]LogSavePackage: Moving 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Saved/wallpaper_no_mans_sky_02_1920x1080__1__Mat57385875419686BF36EB69BD6229401C.tmp' to 'C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/wallpaper_no_mans_sky_02_1920x1080__1__Mat.uasset'
+[2016.02.13-12.07.56:157][677]LogSavePackage: Total save time: 34.758765ms
+[2016.02.13-12.07.56:157][677]LogSavePackage:Display: Finished SavePackage C:/Users/stalk/Documents/Unreal Projects/MyProject/Content/SideScrollerBP/wallpaper_no_mans_sky_02_1920x1080__1__Mat.uasset
+[2016.02.13-12.07.56:745][678]Cmd: QUIT_EDITOR
+[2016.02.13-12.07.57:640][678]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-12.07.57:717][678]LogExit: Preparing to exit.
+[2016.02.13-12.07.57:982][678]LogExit: Editor shut down
+[2016.02.13-12.07.57:982][678]LogExit: Transaction tracking system shut down
+[2016.02.13-12.07.57:984][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002484AC5F240
+[2016.02.13-12.07.57:987][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002486886F600
+[2016.02.13-12.07.57:988][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002486B479300
+[2016.02.13-12.07.57:997][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002480B47BEC0
+[2016.02.13-12.07.58:213][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002484D092F20
+[2016.02.13-12.07.58:213][678]LogExit: Object subsystem successfully closed.
+[2016.02.13-12.07.58:222][678]LogD3D11RHI: Shutdown
+[2016.02.13-12.07.58:223][678]LogD3D11RHI: CleanupD3DDevice
+[2016.02.13-12.07.58:367][678]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.02.13-12.07.58:386][678]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.13-12.07.58:390][678]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.13-12.07.58:391][678]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.13-12.07.58:702][678]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.13-12.07.58:702][678]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.13-12.07.58:702][678]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.13-12.07.58:703][678]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.13-12.07.58:704][678]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.13-12.07.58:705][678]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.13-12.07.58:706][678]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.13-12.07.58:918][678]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.13-12.07.58:945][678]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.13-12.07.58:960][678]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.13-12.07.58:960][678]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.13-12.07.58:960][678]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.13-12.07.58:961][678]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.13-12.07.58:963][678]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.13-12.07.58:966][678]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.13-12.07.59:085][678]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.13-12.07.59:086][678]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.13-12.07.59:086][678]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.13-12.07.59:188][678]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.13-12.07.59:190][678]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.13-12.07.59:190][678]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.13-12.07.59:191][678]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.13-12.07.59:275][678]LogDerivedDataCache: Shutdown
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.13-12.07.59:275][678]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.13-12.07.59:276][678]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-12.08.00:277][678]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-12.08.00:293][678]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-12.08.00:295][678]LogExit: Exiting.
+[2016.02.13-12.08.00:319][678]Log file closed, 02/13/16 15:08:00
